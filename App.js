@@ -7,7 +7,6 @@ import ErrorItem from "./src/components/ErrorItem";
 
 const App = () => {
   const [loading, error, weather] = useGetWeather();
-
   if (weather && weather.list && !loading) {
     return (
       <SafeAreaView style={styles.container}>
@@ -32,3 +31,4 @@ const styles = StyleSheet.create({
 });
 
 export default App;
+
