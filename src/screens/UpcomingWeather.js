@@ -20,7 +20,7 @@ const UpcomingWeather = ({weatherData}) => {
   return (
     <SafeAreaView style={styles.wrapper}>
       <ImageBackground
-        source={require("../images/cloud.png")}
+        source={require("../images/cloud.jpg")}
         style={styles.image}
       >
         <FlatList
