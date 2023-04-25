@@ -26,7 +26,7 @@ export const useGetWeather = () => {
   };
   useEffect(() => {
     (async () => {
-      let { status } = await Location.getForegroundPermissionsAsync();
+      let { status } = await Location.requestForegroundPermissionsAsync();
       if (status !== "granted") {
         setError("No permission given");
         return;
