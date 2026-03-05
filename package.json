@@ -13,7 +13,7 @@
     "@react-navigation/native": "^6.1.6",
     "babel-preset-react-native": "^2.1.0",
     "eslint": "^8.38.0",
-    "expo": "~48.0.11",
+    "expo": "~55.0.5",
     "expo-location": "~15.1.1",
     "expo-status-bar": "~1.4.4",
     "moment": "^2.29.4",
